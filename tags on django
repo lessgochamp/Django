@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+{% if greeting == 1 %}
+  <h1>Hello</h1>
+{% else %}
+  <h1>Bye</h1>
+{% endif %}
+
+<p>In views.py you can see what the greeting variable looks like.</p>
+
+</body>
+</html>                  
